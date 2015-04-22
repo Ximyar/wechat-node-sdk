@@ -1,0 +1,24 @@
+{
+  "name": "wechat-node-sdk",
+  "version": "1.0.0",
+  "description": "微信公众平台SDK for NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ximyar/wechat-node-sdk.git"
+  },
+  "keywords": [
+    "wechat",
+    "sdk",
+    "node"
+  ],
+  "author": "4DKelvin@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ximyar/wechat-node-sdk/issues"
+  },
+  "homepage": "https://github.com/Ximyar/wechat-node-sdk"
+}
