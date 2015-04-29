@@ -1,7 +1,5 @@
 # wechat-node-sdk
-=================
 微信公众平台SDK for NodeJs
-
 ## 使用详解
 使用前需先打开微信帐号的开发模式，详细步骤请查看微信公众平台接口使用说明：  
 微信公众平台： http://mp.weixin.qq.com/wiki/
@@ -12,11 +10,12 @@ https://mp.weixin.qq.com/cgi-bin/readtemplate?t=business/course2_tmpl&lang=zh_CN
 
 微信多客服：http://dkf.qq.com
 
-
 ##	微信公众平台Node-SDK, 官方API部分
-###  @author  Kelvin <4DKelvin@gmail.com>
-###  @link https://github.com/Ximyar/wechat-node-sdk
-###  @version 1.0.0
+参照 Wechat-php-sdk(https://github.com/dodgepudding/wechat-php-sdk)
+@author  Kelvin <4DKelvin@gmail.com>
+@link https://github.com/Ximyar/wechat-node-sdk
+@version 1.0.0
+
 ###  usage:
 
 ```
@@ -26,7 +25,7 @@ https://mp.weixin.qq.com/cgi-bin/readtemplate?t=business/course2_tmpl&lang=zh_CN
  			'appid':'wxdk1234567890', //填写高级调用功能的app id
  			'appsecret':'xxxxxxxxxxxxxxxxxxx' //填写高级调用功能的密钥
  		};
- 	  $wechat = require('wechat')
+ 	  $wechat = require('wechat');
  	  $weObj = new $wechat($options);
     $weObj.valid();
     $type = $weObj.getRev().getRevType();
