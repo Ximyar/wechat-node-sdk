@@ -12,10 +12,6 @@ https://mp.weixin.qq.com/cgi-bin/readtemplate?t=business/course2_tmpl&lang=zh_CN
 
 ##	微信公众平台Node-SDK, 官方API部分
 参照 Wechat-php-sdk(https://github.com/dodgepudding/wechat-php-sdk)
-@author  Kelvin <4DKelvin@gmail.com>
-@link https://github.com/Ximyar/wechat-node-sdk
-@version 1.0.0
-
 ###  usage:
 
 ```
