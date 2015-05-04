@@ -4,7 +4,7 @@ var express = require("express"),
     appid: 'wx2d89b50a031fb3e3',
     encodingAESKey: '5EA4h0VCUKVXb5tuMGR9glpkUfP89xZIeFyAyPiteKZ'
   };
-
+console.log(config);
 app.use(express.query()); // Or app.use(express.query());
 app.use('/wechat', wechat(config, function (req, res, next) {
   // 微信输入信息都在req.weixin上
