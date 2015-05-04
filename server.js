@@ -1,8 +1,8 @@
 var express = require("express"),
   app = express(), wechat = require('wechat'), config = {
-    token: 'token',
-    appid: 'appid',
-    encodingAESKey: 'encodinAESKey'
+    token: 'ximyar',
+    appid: 'wx2d89b50a031fb3e3',
+    encodingAESKey: '5EA4h0VCUKVXb5tuMGR9glpkUfP89xZIeFyAyPiteKZ'
   };
 
 app.use(express.query()); // Or app.use(express.query());
