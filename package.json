@@ -4,7 +4,7 @@
   "description": "微信公众平台SDK for NodeJs",
   "main": "server.js",
   "scripts": {
-    "release": "node server.js"
+    "release": "git checkout master && git pull && nodejs server.js"
   },
   "repository": {
     "type": "git",
