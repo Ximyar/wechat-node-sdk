@@ -2,10 +2,8 @@
   "name": "wechat-node-sdk",
   "version": "1.0.0",
   "description": "微信公众平台SDK for NodeJs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "node server.js",
-    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,8 +21,7 @@
   },
   "homepage": "https://github.com/Ximyar/wechat-node-sdk",
   "dependencies": {
-    "express": "^4.12.3",
-    "crypto": "^0.0.3"
+    "express": "^4.12.3"
   },
   "devDependencies": {}
 }
